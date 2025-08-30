@@ -9,7 +9,6 @@ It uses **semantic search with embeddings** and a **chat-style interface** to ha
 ## Features
 - 🔍 **Natural language queries** for employee search  
 - 🧑‍💻 **Skill-based, project-based, and experience-based filtering**  
-- 📝 Handles **typos and grammar errors** in queries  
 - ⚡ **FastAPI backend** with REST endpoints  
 - 💬 **Streamlit frontend** with chat-style interface  
 - 📊 Embedding-based **semantic search** using `all-MiniLM-L6-v2`  
@@ -35,10 +34,7 @@ It uses **semantic search with embeddings** and a **chat-style interface** to ha
    - Each entry contains: `name`, `skills`, `experience_years`, `projects`, `availability`
 
 ---
+## Demo
+https://hr-resource-query-chatbot-rishika.streamlit.app/
 
-## Setup & Installation
 
-### 1. Clone Repo
-```bash
-git clone https://github.com/your-username/hr-resource-chatbot.git
-cd hr-resource-chatbot
